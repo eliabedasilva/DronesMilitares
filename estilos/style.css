@@ -85,16 +85,30 @@ main{
 }
 .article > .imagem > abbr > img{
     width: 65vw;
+    
+}
+img{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.279);
+    border-radius: 5px;
 }
 .article > .imagem > p{
-    width: 65vw;
     text-align: start;
+    font-size: 10px;
+    text-align: center;
 }
 .droneMilitarXdroneNormal{
     width: 30vw !important;
     height: 20vw !important;
     object-fit: cover !important;
 }
+
+#imgdnxdm{
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
 #models{
     padding-bottom: 50px;
 }
@@ -104,21 +118,33 @@ main{
     font-family: Arial, sans-serif;
     font-size: 14px;
     text-align: left;
-  }
+}
   
-  .tabeladrones th, .tabeladrones td {
+.tabeladrones th, .tabeladrones td {
     border: 1px solid var(--color1);
     padding: 8px;
-  }
+}
   
-  .tabeladrones th {
+.tabeladrones th {
     background-color: var(--color2);
     font-weight: bold;
-  }
+}
   
-  .tabeladrones tr:hover {
+.tabeladrones tr:hover {
     background-color: var(--color4);
-  }
+}
+
+a#topo{
+    position: fixed;
+    top: 90vh;
+    left: 90vw;
+}
+a#topo > img{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+}
   
 
 footer{
